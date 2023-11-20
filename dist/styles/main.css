@@ -1,0 +1,55 @@
+body{ 
+  background-image: url('../pics/Spaghetti.jpg');
+  background-position: 50% 30%;
+  margin: 0; 
+  padding: 0;
+}
+.textPicture{
+  display:flex;
+}
+#content{
+  display:flex;
+  flex-direction: column;
+}
+#text-content{
+  padding: 20px;
+  background-color: rgba(211, 211, 211, 0.9);
+  width: 40vw;
+  align-self: center;
+  font-size: large;
+  line-height: 1.5;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; /*Background color for the navigation bar */
+  }
+
+  li {
+    float: left;
+    margin-right: 20px;
+    color: lightgrey;
+    font-size: 24px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px 3vw;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #555; /* Background color on hover */
+  }

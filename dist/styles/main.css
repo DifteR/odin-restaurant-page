@@ -4,14 +4,21 @@ body{
   margin: 0; 
   padding: 0;
 }
+.category{
+  font-size: 32px;
+}
 .textPicture{
   display:flex;
+}
+#contactForm{
+  display: flex;
+  flex-direction: column;
 }
 #content{
   display:flex;
   flex-direction: column;
 }
-#text-content{
+#textContent{
   padding: 20px;
   background-color: rgba(211, 211, 211, 0.9);
   width: 40vw;

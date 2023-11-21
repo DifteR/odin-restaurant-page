@@ -14,11 +14,8 @@ function displayMenu(menuData){
     const menuTable = document.getElementById('menu');
 
     menuData.menu.forEach(category => {
-        console.log(category);
         menuTable.appendChild(fillCategory(category.category));
         category.items.forEach(item =>{
-            console.log(item);
-            //const tableRow = fillRow(item.name, item.price);
             menuTable.appendChild(fillRow(item.name, item.price));
         });
     });

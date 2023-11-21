@@ -4,6 +4,25 @@ body{
   margin: 0; 
   padding: 0;
 }
+iframe{
+  width: 30vw;
+  height: 30vw;
+  align-self: center;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
 .category{
   font-size: 32px;
 }
@@ -13,6 +32,11 @@ body{
 #contactForm{
   display: flex;
   flex-direction: column;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 #content{
   display:flex;

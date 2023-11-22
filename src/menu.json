@@ -1,0 +1,65 @@
+{
+    "menu": [
+      {
+        "category": "Pizzas",
+        "items": [
+          {"name": "Margherita", "price": 8.50},
+          {"name": "Pepperoni", "price": 9.50},
+          {"name": "Quattro Formaggi", "price": 11.00},
+          {"name": "Prosciutto e Funghi", "price": 10.50},
+          {"name": "Diavola", "price": 12.00},
+          {"name": "Capricciosa", "price": 11.50},
+          {"name": "Vegetariana", "price": 10.00},
+          {"name": "Seafood", "price": 13.50},
+          {"name": "Calzone", "price": 12.50},
+          {"name": "Pesto Chicken", "price": 13.00}
+        ]
+      },
+      {
+        "category": "Pasta",
+        "items": [
+          {"name": "Spaghetti Bolognese", "price": 9.50},
+          {"name": "Fettuccine Alfredo", "price": 10.00},
+          {"name": "Lasagna", "price": 11.50},
+          {"name": "Penne alla Vodka", "price": 10.50},
+          {"name": "Ravioli al Pomodoro", "price": 12.00},
+          {"name": "Carbonara", "price": 11.00},
+          {"name": "Linguine Frutti di Mare", "price": 13.50},
+          {"name": "Gnocchi Gorgonzola", "price": 12.50},
+          {"name": "Pappardelle Funghi", "price": 13.00},
+          {"name": "Aglio e Olio", "price": 9.00}
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {"name": "Chicken Parmesan", "price": 14.00},
+          {"name": "Veal Marsala", "price": 16.50},
+          {"name": "Shrimp Scampi", "price": 15.00},
+          {"name": "Eggplant Parmigiana", "price": 13.50},
+          {"name": "Osso Buco", "price": 18.00},
+          {"name": "Grilled Salmon", "price": 17.50},
+          {"name": "Vegetarian Risotto", "price": 14.50},
+          {"name": "Filetto di Manzo", "price": 19.00},
+          {"name": "Porchetta", "price": 16.00},
+          {"name": "Risotto ai Funghi", "price": 15.50}
+        ]
+      },
+      {
+        "category": "Drinks",
+        "items": [
+          {"name": "Mineral Water", "price": 2.00},
+          {"name": "Soda", "price": 2.50},
+          {"name": "Lemonade", "price": 3.00},
+          {"name": "Iced Tea", "price": 2.50},
+          {"name": "Espresso", "price": 2.50},
+          {"name": "Cappuccino", "price": 3.50},
+          {"name": "House Wine (Glass)", "price": 5.00},
+          {"name": "Prosecco (Glass)", "price": 6.50},
+          {"name": "Negroni", "price": 7.50},
+          {"name": "Aperol Spritz", "price": 8.00}
+        ]
+      }
+    ]
+  }
+  

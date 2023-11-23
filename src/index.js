@@ -4,7 +4,7 @@ import {loadContact} from './contact.js';
 //loadIndex();
 const homeButton = document.getElementById('home');
 homeButton.addEventListener('click', loadIndex);
-const menuButton = document.getElementById('menu');
+const menuButton = document.getElementById('menupage');
 menuButton.addEventListener('click', renderMenu);
 const contactButton = document.getElementById('contact');
 contactButton.addEventListener('click', loadContact);

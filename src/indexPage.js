@@ -1,5 +1,6 @@
 export function loadIndex() {
   const contentDiv = document.getElementById("content");
+  contentDiv.innerHTML = '';
   const newDiv = document.createElement("div");
   newDiv.innerHTML = `
 <div id="textContent">

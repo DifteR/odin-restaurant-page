@@ -31,6 +31,7 @@ function loadMenu() {
 
 export function renderMenu() {
   const contentDiv = document.getElementById("content");
+  contentDiv.innerHTML = '';
   const newDiv = document.createElement("div");
   newDiv.innerHTML = `<div id="textContent"><table id="menu"></table></div>`;
 contentDiv.appendChild(newDiv);
